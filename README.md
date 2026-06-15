@@ -1,6 +1,11 @@
 # Multimodal Explainable AI Assistant
 
 A research-oriented Human-AI Interaction prototype that visualizes how AI systems classify information, estimate confidence, and communicate reasoning to users.
+<br>
+
+<img width="1080" height="640" alt="image" src="https://github.com/user-attachments/assets/a9796ef9-cb4d-484f-9164-a4afd61289a0" />
+
+<br>
 
 ## Overview
 
