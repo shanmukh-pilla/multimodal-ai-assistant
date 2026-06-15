@@ -1,45 +1,96 @@
-Multimodal Explainable AI Assistant
+# Multimodal Explainable AI Assistant
 
-A research-oriented Human-AI Interaction prototype that demonstrates explainable AI concepts through topic classification, confidence estimation, and reasoning visualization.
+A research-oriented Human-AI Interaction prototype that visualizes how AI systems classify information, estimate confidence, and communicate reasoning to users.
 
-Features
+## Overview
 
-* React + TypeScript frontend
-* FastAPI backend
-* REST API integration
-* Topic classification engine
-* Confidence scoring
-* Explainability dashboard
-* AI reasoning pipeline visualization
+This project explores explainable AI concepts through an interactive dashboard built with React and FastAPI.
 
-Research Motivation
+Users can submit queries and receive:
 
-Modern AI systems often operate as black boxes. This project explores how explainability mechanisms can improve transparency, trust, and user understanding of AI-generated outputs.
+- Topic Classification
+- Confidence Estimation
+- Domain Detection
+- Keyword Extraction
+- AI Reasoning Pipeline
+- Explainability Insights
 
-Tech Stack
+The goal is to improve transparency and trust in AI-assisted systems by exposing key decision-making information rather than presenting outputs as a black box.
 
-Frontend:
+---
 
-* React
-* TypeScript
-* Axios
+## Features
 
-Backend:
+- Explainability Dashboard
+- Topic Detection Engine
+- Confidence Scoring
+- Keyword Extraction
+- Human-AI Interaction Prototype
+- REST API Architecture
+- React + FastAPI Integration
 
-* FastAPI
-* Python
+---
 
-Concepts:
+## Tech Stack
 
-* Explainable AI (XAI)
-* Human-AI Interaction
-* Human-Computer Interaction
-* Information Visualization
+### Frontend
 
-Future Improvements
+- React
+- TypeScript
+- Axios
+- Vite
 
-* Real LLM Integration
-* Confidence Calibration
-* Multimodal Inputs (Image + Text)
-* User Feedback Loop
-* Explainability Metrics
+### Backend
+
+- FastAPI
+- Python
+- REST APIs
+
+---
+
+## Research Areas
+
+- Explainable AI (XAI)
+- Human-AI Interaction
+- Human-Computer Interaction
+- Information Visualization
+
+---
+
+## Running the Project
+
+### Backend
+
+```bash
+cd backend
+
+source venv/bin/activate
+
+uvicorn app.main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Future Improvements
+
+- Real LLM Integration
+- Multimodal Inputs
+- User Feedback Mechanisms
+- Explainability Metrics
+- Advanced Confidence Calibration
+
+---
+
+## Author
+
+Shanmukh Pilla
